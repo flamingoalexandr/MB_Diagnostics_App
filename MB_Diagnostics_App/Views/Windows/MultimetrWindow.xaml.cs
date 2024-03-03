@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace experimenthal
+namespace MB_Diagnostics_App.Views.Windows
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MultimetrWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MultimetrWindow : Window
     {
-        public MainWindow()
+        public MultimetrWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
