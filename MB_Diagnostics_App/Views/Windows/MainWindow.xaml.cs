@@ -24,5 +24,10 @@ namespace MB_Diagnostics_App
         {
             InitializeComponent();
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
