@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MB_Diagnostics_App"
         mc:Ignorable="d"
-        Title="MB Testing and diagnostics" Height="1000" Width="1250">
-    <DockPanel>
+        Title="MB Testing and diagnostics" Height="960" Width="1280">
+    <DockPanel LastChildFill="True">
         <WrapPanel DockPanel.Dock="Top">
             <Menu>
                 <MenuItem Header="Файл">
@@ -14,7 +14,7 @@
                     <MenuItem Header="Сохранить" />
                     <MenuItem Header="Выход" />
                 </MenuItem>
-                <MenuItem Header="Правка">
+                <MenuItem Header="Сценарии">
                     <MenuItem Header="Вырезать" />
                     <MenuItem Header="Копировать" />
                     <MenuItem Header="Вставить" />
@@ -22,12 +22,19 @@
                 <!-- Другие пункты меню -->
             </Menu>
         </WrapPanel>
-        <Grid x:Name="MainRoot" Width="855">
+
+        <Grid x:Name="MainRoot">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="24*" />
+                <ColumnDefinition Width="101*" />
 
 
             </Grid.ColumnDefinitions>
-            <Image Margin="0,89,20,30" Source="/Views/Images/mainPhoto.png" Stretch="Fill"/>
+            <Image Source="/Views/Images/mainPhoto.png" Stretch="Fill" Grid.Column="1" />
+            <StackPanel Grid.Column="0">
+                <Button Content="Мультиметр" Width="135" Margin="0,5,0,0"/>
+                <Button Content="Осцилограф" Width="135" Margin="0,5,0,0"/>
+            </StackPanel>
         </Grid>
     </DockPanel>
 
