@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Views\Images\mainPhoto.png" />
+    <None Remove="Views\Images\MB_layout.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <Resource Include="Views\Images\mainPhoto.png" />
+    <Resource Include="Views\Images\MB_layout.png" />
   </ItemGroup>
 
 </Project>

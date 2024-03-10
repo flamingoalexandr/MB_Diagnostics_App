@@ -38,7 +38,12 @@ namespace MB_Diagnostics_App
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MB_Diagnostics_App.Views.Windows.MultimetrWindow window = new MB_Diagnostics_App.Views.Windows.MultimetrWindow();
-            // Покажите новое окно
+            window.Show();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MB_Diagnostics_App.Views.Windows.MB_layout window = new Views.Windows.MB_layout();
             window.Show();
         }
     }

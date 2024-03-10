@@ -1,0 +1,12 @@
+﻿<Window x:Class="MB_Diagnostics_App.Views.Windows.MB_layout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MB_Diagnostics_App.Views.Windows"
+        mc:Ignorable="d"
+        Title="MB_layout" Height="1180" Width="950">
+    <Grid >
+        <Image Margin="20,44,20,66" Source="/Views/Images/MB_layout.png" Stretch="Fill"/>
+    </Grid>
+</Window>

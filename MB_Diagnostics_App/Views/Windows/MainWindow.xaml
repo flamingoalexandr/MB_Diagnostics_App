@@ -19,6 +19,11 @@
                     <MenuItem Header="Копировать" />
                     <MenuItem Header="Вставить" />
                 </MenuItem>
+                <MenuItem Header="Вид" Click="MenuItem_Click">
+                    <MenuItem Header="MB layout" />
+                    <MenuItem Header="Копировать" />
+                    <MenuItem Header="Вставить" />
+                </MenuItem>
                 <!-- Другие пункты меню -->
             </Menu>
         </WrapPanel>
