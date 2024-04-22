@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MB_Diagnostics_App.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace MB_Diagnostics_App
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
