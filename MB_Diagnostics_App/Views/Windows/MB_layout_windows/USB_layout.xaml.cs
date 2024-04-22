@@ -12,22 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MB_Diagnostics_App.Views.Windows
+namespace MB_Diagnostics_App.Views.Windows.MB_layout_windows
 {
     /// <summary>
-    /// Interaction logic for MB_layout.xaml
+    /// Interaction logic for USB_layout.xaml
     /// </summary>
-    public partial class MB_layout : Window
+    public partial class USB_layout : Window
     {
-        public MB_layout()
+        public USB_layout()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MB_Diagnostics_App.Views.Windows.MB_layout_windows.USB_layout window = new MB_Diagnostics_App.Views.Windows.MB_layout_windows.USB_layout();
-            window.Show();
         }
     }
 }

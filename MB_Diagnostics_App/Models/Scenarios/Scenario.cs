@@ -11,3 +11,4 @@ namespace MB_Diagnostics_App.Models.Scenarios
 
     }
 }
+    

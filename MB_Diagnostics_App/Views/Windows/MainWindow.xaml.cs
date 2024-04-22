@@ -46,5 +46,20 @@ namespace MB_Diagnostics_App
             MB_Diagnostics_App.Views.Windows.MB_layout window = new Views.Windows.MB_layout();
             window.Show();
         }
+
+        private void CheckBox_Checked()
+        {
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

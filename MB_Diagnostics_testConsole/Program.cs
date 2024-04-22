@@ -1,2 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+class MyClass
+{
+    public int a;
+    public void printa()
+    {
+        Console.WriteLine(a);
+    }
+}
+
+
+
+
+#Console.WriteLine("Hello, World!");

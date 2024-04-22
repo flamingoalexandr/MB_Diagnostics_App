@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB_Diagnostics_App.Models.MBComponents
+namespace MB_Diagnostics_App.Models
 {
-    internal class SouthBridge
+    internal class PointsDataBase
     {
+
     }
 }

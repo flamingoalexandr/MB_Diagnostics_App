@@ -10,11 +10,13 @@
   <ItemGroup>
     <None Remove="Views\Images\mainPhoto.png" />
     <None Remove="Views\Images\MB_layout.png" />
+    <None Remove="Views\Images\MB_layout_img\USB.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Views\Images\mainPhoto.png" />
     <Resource Include="Views\Images\MB_layout.png" />
+    <Resource Include="Views\Images\MB_layout_img\USB.png" />
   </ItemGroup>
 
 </Project>
