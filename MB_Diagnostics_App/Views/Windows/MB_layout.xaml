@@ -8,7 +8,18 @@
         Title="MB_layout" Height="1180" Width="950">
     <Grid >
         <Image Margin="20,44,20,66" Source="/Views/Images/MB_layout.png" Stretch="Fill"/>
-        <Button Content="24Pin" HorizontalAlignment="Left" Margin="820,464,0,0" VerticalAlignment="Top" Height="25" Width="40" RenderTransformOrigin="0.125,0.802"/>
+
+        <Button Content="24Pin" HorizontalAlignment="Left" Margin="820,464,0,0" VerticalAlignment="Top" Height="25" Width="40" RenderTransformOrigin="0.125,0.802">
+            <Button.ToolTip>
+                <ToolTip>
+                    <StackPanel>
+                        <TextBlock Text="Всплывающая подсказка с изображением:"/>
+                        <Image Source="/Views/Images/MB_layout_img/USB.png"/>
+                    </StackPanel>
+                </ToolTip>
+            </Button.ToolTip>
+        </Button>
+
         <Button Content="USB" HorizontalAlignment="Left" Margin="435,954,0,0" VerticalAlignment="Top" Click="Button_Click" Width="50"/>
     </Grid>
 </Window>

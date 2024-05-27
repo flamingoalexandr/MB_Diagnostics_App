@@ -22,11 +22,11 @@ class PointsDataBase
     public string usb8 = "usb8";
     public string usb9 = "usb9";
     public string GND = "GND";
-    public Pair p1;
+    //public Pair p1;
     public PointsDataBase()
     {
-        p1 = new Pair(usb1, usb2);
-        DB_for_multimetr.Add(p1, "Звенит");
+        //p1 = new Pair(usb1, usb2);
+        DB_for_multimetr.Add(new Pair(usb1, usb2), "Звенит");
         DB_for_multimetr.Add(new Pair(usb1, usb3), "Звенит");
         DB_for_multimetr.Add(new Pair(usb1, usb9), "Звенит");
         DB_for_multimetr.Add(new Pair(usb1, GND), "Звенит");

@@ -54,7 +54,7 @@ namespace MB_Diagnostics_App.Views.Windows
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            mainTB.Text = db1.GetMeasurements(db1.p1);
+            mainTB.Text = db1.GetMeasurements(new Pair(pluscontact.Text, minuscontact.Text));
         }
     }
 }

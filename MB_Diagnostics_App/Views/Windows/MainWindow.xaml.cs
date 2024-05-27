@@ -1,4 +1,5 @@
 ﻿using MB_Diagnostics_App.Models;
+using MB_Diagnostics_App.Models.Scenarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace MB_Diagnostics_App
     /// </summary>
     public partial class MainWindow : Window
     {
+        Scenario sc = new Scenario();
         public MainWindow()
         {
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace MB_Diagnostics_App
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Это сообщение!", "Заголовок", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
