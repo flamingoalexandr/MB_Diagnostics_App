@@ -19,30 +19,29 @@
             <Image Source="/Views/Images/mainPhoto.png" Stretch="Fill" Margin="0,101,0,0" Grid.Column="1" />
             <StackPanel Grid.Column="0">
 
-                <Button Content="Посмотреть активность BIOS осцилогр" Width="220" Margin="0,56,0,0" Click="Button_Click"/>
-                <Button Content="Проверить ОЗУ" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Button Content="Прозвонить 5V" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Button Content="Прозвонить 12V" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Button Content="Замерить напряжение на батарейке" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Button Content="Замерить напряжение на RTC" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Button Content="Замерить напряжение на двух usb" Width="220" Margin="0,5,0,0" Click="Button_Click"/>
-                <Label Content="Выбрать неисправность" Margin="0,50,0,0"/>
-                <ComboBox Width="222" Margin="0,5,0,0"/>
-                <Button Content="Подтвердить" Width="122" Margin="0,10,0,0"/>
-
-
+                <Button Content="Посмотреть активность BIOS осцилогр" Width="220" Margin="0,56,0,0" Name="BIOS_but" Click="BIOS_but_Click"/>
+                <Button Content="Проверить ОЗУ" Width="220" Margin="0,5,0,0" Name="RAM_but" Click="RAM_but_Click"/>
+                <Button Content="Прозвонить 5V" Width="220" Margin="0,5,0,0" Name="fiveV_but" Click="fiveV_but_Click"/>
+                <Button Content="Прозвонить 12V" Width="220" Margin="0,5,0,0" Name="twentyV_but" Click="twentyV_but_Click"/>
+                <Button Content="Замерить напряжение на батарейке" Width="220" Margin="0,5,0,0" Name="battery_but" Click="battery_but_Click"/>
+                <Button Content="Замерить напряжение на RTC" Width="220" Margin="0,5,0,0" Name="RTC_but" Click="RTC_but_Click"/>
+                <Button Content="Замерить напряжение на двух usb" Width="220" Margin="0,5,0,0" Name="USB_but" Click="USB_but_Click"/>
+                <Button Content="Включить компьютер" Margin="0,5,0,0" Name="Start_but" Click="Start_but_Click"/>
+                <Label Content="Выбрать неисправность" Margin="0,50,0,0" />
+                <ComboBox Width="222" Margin="0,5,0,0" Name="maincombo"/>
+                <Button Content="Подтвердить" Width="122" Margin="0,10,0,0" Name="Accept" Click="Accept_Click"/>
 
             </StackPanel>
             <Label Grid.Column="1" Content="GIGABYTE A520M S2H" HorizontalAlignment="Center" Margin="0,-5,0,0" VerticalAlignment="Top" Width="390" FontSize="38"/>
-            <Button Grid.Column="1" Content="Неисправность 2" HorizontalAlignment="Left" Margin="335,56,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 1" HorizontalAlignment="Left" Margin="105,56,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 4" HorizontalAlignment="Left" Margin="815,56,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 3" HorizontalAlignment="Left" Margin="563,56,0,0" VerticalAlignment="Top" Width="160"/>
+            <Button Grid.Column="1" Content="Неисправность 2" HorizontalAlignment="Left" Margin="335,56,0,0" VerticalAlignment="Top" Width="160" Name="defect2" Click="defect2_Click"/>
+            <Button Grid.Column="1" Content="Неисправность 1" HorizontalAlignment="Left" Margin="105,56,0,0" VerticalAlignment="Top" Width="160" Name="defect1" Click="defect1_Click"/>
+            <Button Grid.Column="1" Content="Неисправность 4" HorizontalAlignment="Left" Margin="815,56,0,0" VerticalAlignment="Top" Width="160" Name="defect4" Click="defect4_Click"/>
+            <Button Grid.Column="1" Content="Неисправность 3" HorizontalAlignment="Left" Margin="563,56,0,0" VerticalAlignment="Top" Width="160" Name="defect3" Click="defect3_Click"/>
 
-            <Button Grid.Column="1" Content="Неисправность 6" HorizontalAlignment="Left" Margin="335,86,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 5" HorizontalAlignment="Left" Margin="105,86,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 7" HorizontalAlignment="Left" Margin="563,86,0,0" VerticalAlignment="Top" Width="160"/>
-            <Button Grid.Column="1" Content="Неисправность 8" HorizontalAlignment="Left" Margin="815,86,0,0" VerticalAlignment="Top" Width="160"/>
+            <Button Grid.Column="1" Content="Неисправность 6" HorizontalAlignment="Left" Margin="335,86,0,0" VerticalAlignment="Top" Width="160" Name="defect6" Click="defect6_Click" />
+            <Button Grid.Column="1" Content="Неисправность 5" HorizontalAlignment="Left" Margin="105,86,0,0" VerticalAlignment="Top" Width="160" Name="defect5" Click="defect5_Click"/>
+            <Button Grid.Column="1" Content="Неисправность 7" HorizontalAlignment="Left" Margin="563,86,0,0" VerticalAlignment="Top" Width="160" Name="defect7" Click="defect7_Click"/>
+            <Button Grid.Column="1" Content="Неисправность 8" HorizontalAlignment="Left" Margin="815,86,0,0" VerticalAlignment="Top" Width="160" Name="defect8" Click="defect8_Click"/>
 
 
         </Grid>
